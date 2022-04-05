@@ -1,0 +1,58 @@
+.titulo{
+    text-align: center;
+    margin: 0em 0em 0em 0em;
+    color: #f966fc;
+    font-family:'Apple Chancery', 'cursive';
+    
+}
+img.diferente{
+    position:left;
+    margin: -2em 2em -1.5em 3em;
+    
+}
+
+body{
+    background-image: linear-gradient(#FFA7B5,white);
+    
+
+}
+#começo{
+    text-align: right;
+    font-family: 'Comfortaa', cursive;
+    word-spacing: 4rem;
+    margin: 0em 2em 0.5em 0em;
+}
+a.cabecalho:link { 
+    color: black;
+    text-decoration: none;
+}
+a.cabecalho:visited {
+     color: black;
+}
+a.cabecalho:hover{
+    color: white;
+}
+#fundo{
+    width: 100% auto;
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#frase-meio{
+    text-align: justify;
+    margin: 0em 0em  0em 0em;
+    position:absolute; top: 170px; left: 50px;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px  4px 5px #c7495e ;
+    font-family: 'lobster', cursive;
+    
+
+}
