@@ -56,3 +56,132 @@ a.cabecalho:hover{
     
 
 }
+p.footer{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 0em 0em 0em 0em;
+}
+p.buscar{
+    font-family: 'Comfortaa', cursive;
+    position: absolute; top:120px; right:170px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#forms{
+    font-family: 'Comfortaa', cursive;
+    position: absolute; top: 230px; right: 150px;
+}
+#forms2{
+    font-family:'Comfortaa', cursive;
+    position: absolute; top:270px; right: 150px;
+}
+#forms3{
+    font-family: 'Comfortaa', cursive;
+    position: absolute; top: 310px; right:150px;
+}
+#forms4{
+    font-family: 'Comfortaa', cursive;
+    position: absolute; top:350px; right:150px;
+}
+#forms5{
+    font-family: 'Comfortaa', cursive;
+    position: absolute; top:410px; right:230px;
+}
+
+.button{
+    background-color: rgb(255, 133, 149);
+    border: 0em;
+    margin-bottom: 1em;
+    padding: 0.7em 1em;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px #c7495e;
+}
+.button:hover{
+    background-color: #d14e64;
+    box-shadow: 2px 2px 2px #963847;
+}
+#canvas{
+    position: absolute;
+    border: 2px solid black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.input{
+    border-radius: 22px;
+    width: 15em;
+    height: 1.25em;
+    border: 3px rgb(255, 133, 149) solid;
+    padding: 4px;   
+}
+.input2{
+    width: 15em;
+    height: 1.25em;
+    border-radius: 22px;
+    border: 3px rgb(255, 133, 149) solid;
+    padding: 4px; 
+}
+.input3{
+    width: 15em;
+    height: 1.25em;
+    border-radius: 22px;
+    border: 3px rgb(255, 133, 149) solid;
+    padding: 4px;
+    text-align: center;
+}
+.input4{
+    position: absolute;top:350px; right:200px;
+    width: 15em;
+    height: 1.25em;
+    border-radius: 22px;
+    border: 3px rgb(255, 133, 149) solid;
+    padding: 4px;
+}
+.input input{
+    border:none;
+    outline:none;
+    width: 65%;
+    position: absolute; top:5px; right:8px;
+    background: whitesmoke;
+}
+.input2 input{
+    border:none;
+    outline:none;
+    position: absolute; top:5px; right:10px;
+    background:whitesmoke
+}
+.input4 select{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    height:100%;
+    padding: 2px 4px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    background: whitesmoke;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    outline: none;
+}
+.input4:before{
+    content: "";
+    position: absolute;
+    top:12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #c7495e transparent transparent transparent;
+}
+.forms{
+    background: whitesmoke;
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+    display: grid;
+    border-radius: 10%;
+    position: absolute; top:120px; right:120px;
+}
+
+
